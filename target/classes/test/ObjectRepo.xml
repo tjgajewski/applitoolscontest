@@ -1,0 +1,88 @@
+<root>
+    <login>
+        <username>
+            <accessType>id</accessType>
+            <accessName>username</accessName>
+        </username>
+        <password>
+            <accessType>id</accessType>
+            <accessName>password</accessName>
+        </password>
+        <login_button>
+            <accessType>id</accessType>
+            <accessName>log-in</accessName>
+        </login_button>
+        <login_message>
+            <accessType>xpath</accessType>
+            <accessName>//div[@class="alert alert-warning"]</accessName>
+        </login_message>
+        <login_form_title>
+            <accessType>class</accessType>
+            <accessName>auth-header</accessName>
+        </login_form_title>
+        <username_label>
+            <accessType>xpath</accessType>
+            <accessName>//label[text()="Username"]</accessName>
+        </username_label>
+        <password_label>
+            <accessType>xpath</accessType>
+            <accessName>//label[text()="Password"]</accessName>
+        </password_label>
+        <person_icon>
+            <accessType>xpath</accessType>
+            <accessName>//*[@class="pre-icon os-icon os-icon-user-male-circle"]</accessName>
+        </person_icon>
+        <finger_print_icon>
+            <accessType>xpath</accessType>
+            <accessName>//*[@class="pre-icon os-icon os-icon-fingerprint"]</accessName>
+        </finger_print_icon>
+        <remember_me>
+            <accessType>xpath</accessType>
+            <accessName>//label[text()="Remember Me"]</accessName>
+        </remember_me>
+        <twitter_image>
+            <accessType>xpath</accessType>
+            <accessName>//img[@src="img/social-icons/twitter.png"]</accessName>
+        </twitter_image>
+        <facebook_image>
+            <accessType>xpath</accessType>
+            <accessName>//img[@src="img/social-icons/facebook.png"]</accessName>
+        </facebook_image>
+        <linkedin_image>
+            <accessType>xpath</accessType>
+            <accessName>//img[@src="img/social-icons/linkedin.png"]</accessName>
+        </linkedin_image>
+    </login>
+    <home>
+        <financial_overview>
+            <accessType>xpath</accessType>
+            <accessName>//h6[@class="element-header"]</accessName>
+        </financial_overview>
+        <amount_column_values>
+            <accessType>xpath</accessType>
+            <accessName>//*[@id="transactionsTable"]//td[@class="text-right bolder nowrap"]//span</accessName>
+        </amount_column_values>
+        <flash_sale_ads>
+            <accessType>xpath</accessType>
+            <accessName>//*[contains(@id, "flashSale")]/img</accessName>
+        </flash_sale_ads>
+        <amount_column_header>
+            <accessType>id</accessType>
+            <accessName>amount</accessName>
+        </amount_column_header>
+        <compare_expenses_link>
+            <accessType>id</accessType>
+            <accessName>showExpensesChart</accessName>
+        </compare_expenses_link>
+    </home>
+    <expense_chart>
+        <expenses_chart_script>
+            <accessType>xpath</accessType>
+            <accessName>//script[contains(text(),"MONTHS")]</accessName>
+        </expenses_chart_script>
+        <add_next_year>
+            <accessType>id</accessType>
+            <accessName>addDataset</accessName>
+        </add_next_year>
+    </expense_chart>
+</root>
